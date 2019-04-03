@@ -5,9 +5,11 @@ export default {
     title: 'React Static',
   }),
   getRoutes: async () => {
+    process.env.API_URL = process.env.API_URL || 'http://localhost:4999/snippet/grid'
+    console.log('@@', process.env.API_URL)
     try {
       const { data: { data: posts } } = await axios({
-        url: 'http://localhost:4999/snippet/grid',
+        url: process.env.API_URL,
         method: 'post',
         headers: {
           'content-type': 'application/json; charset=utf-8',
