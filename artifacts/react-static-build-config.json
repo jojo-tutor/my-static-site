@@ -1,0 +1,107 @@
+{
+  "entry": "/home/dna/Documents/spikes/my-static-site/src/index.js",
+  "prefetchRate": 5,
+  "maxThreads": null,
+  "disableRoutePrefixing": false,
+  "outputFileRate": 100,
+  "extensions": [
+    ".js",
+    ".jsx"
+  ],
+  "minLoadTime": 200,
+  "disablePreload": false,
+  "disableRuntime": false,
+  "preloadPollInterval": 300,
+  "paths": {
+    "ROOT": "/home/dna/Documents/spikes/my-static-site",
+    "LOCAL_NODE_MODULES": "/home/dna/Documents/spikes/my-static-site/node_modules/react-static/node_modules",
+    "SRC": "/home/dna/Documents/spikes/my-static-site/src",
+    "PAGES": "/home/dna/Documents/spikes/my-static-site/src/pages",
+    "DIST": "/home/dna/Documents/spikes/my-static-site/dist",
+    "ASSETS": "/home/dna/Documents/spikes/my-static-site/dist",
+    "PLUGINS": "/home/dna/Documents/spikes/my-static-site/plugins",
+    "TEMP": "/home/dna/Documents/spikes/my-static-site/tmp",
+    "BUILD_ARTIFACTS": "/home/dna/Documents/spikes/my-static-site/artifacts",
+    "PUBLIC": "/home/dna/Documents/spikes/my-static-site/public",
+    "NODE_MODULES": "/home/dna/Documents/spikes/my-static-site/node_modules",
+    "EXCLUDE_MODULES": "/home/dna/Documents/spikes/my-static-site/node_modules",
+    "PACKAGE": "/home/dna/Documents/spikes/my-static-site/package.json",
+    "HTML_TEMPLATE": "/home/dna/Documents/spikes/my-static-site/dist/index.html",
+    "STATIC_DATA": "/home/dna/Documents/spikes/my-static-site/dist/staticData"
+  },
+  "plugins": [
+    {
+      "location": "/home/dna/Documents/spikes/my-static-site",
+      "options": {},
+      "hooks": {}
+    }
+  ],
+  "babelExcludes": [],
+  "siteRoot": "",
+  "basePath": "",
+  "publicPath": "/",
+  "assetsPath": "",
+  "extractCssChunks": false,
+  "inlineCss": false,
+  "routes": [
+    {
+      "path": "404",
+      "component": "src/pages/404.js",
+      "isPage": true,
+      "originalPath": "404",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/404.js"
+    },
+    {
+      "path": "about",
+      "component": "src/pages/about.js",
+      "isPage": true,
+      "originalPath": "about",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/about.js"
+    },
+    {
+      "path": "blog",
+      "component": "src/pages/blog.js",
+      "isPage": true,
+      "originalPath": "blog",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/pages/blog.js"
+    },
+    {
+      "path": "blog/post/35c0fb44-a3e9-44d1-a760-9715f355f475",
+      "component": "src/containers/Post",
+      "originalPath": "post/35c0fb44-a3e9-44d1-a760-9715f355f475",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "blog/post/470a752d-5786-4313-b469-4f4b22592ca0",
+      "component": "src/containers/Post",
+      "originalPath": "post/470a752d-5786-4313-b469-4f4b22592ca0",
+      "hasGetProps": true,
+      "fromConfig": true,
+      "template": "../src/containers/Post"
+    },
+    {
+      "path": "/",
+      "component": "src/pages/index.js",
+      "isPage": true,
+      "originalPath": "/",
+      "hasGetProps": false,
+      "fromConfig": false,
+      "template": "../src/pages/index.js"
+    }
+  ],
+  "templates": [
+    "../src/pages/404.js",
+    "../src/pages/about.js",
+    "../src/pages/blog.js",
+    "../src/containers/Post",
+    "../src/pages/index.js"
+  ]
+}
