@@ -22,7 +22,7 @@ export default {
           "sort_direction": "asc",
           "filter": [],
           "entity": "company",
-          "entity_id": "b3c3a95a-4056-4577-9288-0cb509f0b334",
+          "entity_id": "a74b50a4-4940-44ea-ad27-05ee996718a8",
           "grid": true
         }
       })
